@@ -14,9 +14,9 @@ const Social = () => {
   };
 
   return (
-        <div className="max-w-[2520px] mx-auto xl:px-80 md:px-12 sm:px-2 px-4">
+        <div className="max-w-[2520px] mx-auto xl:px-80  sm:px-2 px-4">
       <div
-        className="my-8 grid grid-cols-1 gap-5 md:flex md:gap-6 justify-between text-gray-200"
+        className="my-4 grid grid-cols-1 gap-5 md:flex md:gap-6 justify-between text-gray-200"
         id="social"
       >
         <motion.div
@@ -31,7 +31,7 @@ const Social = () => {
           className="w-full bg-gradient-to-r from-indigo-600
           to-pink-500 border flex items-center justify-center text-2xl py-6 font-bold  rounded-md cursor-pointer hover:shadow-md"
         >
-          <Link to="https://github.com/taslimaakterpapia" target="_blank" className=" flex items-center gap-2">
+          <Link to="https://github.com/taslimaakterpapia" target="_blank" className=" flex items-center gap-2 px-6">
             <FaGithub /> Github
           </Link>
         </motion.div>
@@ -48,7 +48,7 @@ const Social = () => {
           className="w-full bg-gradient-to-r from-indigo-600
           to-pink-500 border flex items-center justify-center text-2xl py-6 font-bold  rounded-md cursor-pointer hover:shadow-md"
         >
-          <Link to="https://www.linkedin.com/in/taslima-akter-papia-1852a8280/" target="_blank" className=" flex items-center gap-2">
+          <Link to="https://www.linkedin.com/in/taslima-akter-papia-1852a8280/" target="_blank" className=" flex items-center gap-2 px-6">
             <FaLinkedin /> Linkedin
           </Link>
         </motion.div>
@@ -65,7 +65,7 @@ const Social = () => {
           className="w-full bg-gradient-to-r from-indigo-600
           to-pink-500 border flex items-center justify-center text-2xl py-6 font-bold  rounded-md cursor-pointer hover:shadow-md"
         >
-          <Link to="https://www.instagram.com/s.u.n.f.y/" target="_blank" className=" flex items-center gap-2">
+          <Link to="https://www.instagram.com/s.u.n.f.y/" target="_blank" className=" flex items-center gap-2 px-6">
             <FaInstagram /> Instagram
           </Link>
         </motion.div>
@@ -82,7 +82,7 @@ const Social = () => {
           className="w-full bg-gradient-to-r from-indigo-600
           to-pink-500 border flex items-center justify-center text-2xl py-6 font-bold  rounded-md cursor-pointer hover:shadow-md"
         >
-          <Link to="https://www.facebook.com/taslimapapiasunfy2/" target="_blank" className=" flex items-center gap-2">
+          <Link to="https://www.facebook.com/taslimapapiasunfy2/" target="_blank" className=" flex items-center gap-2 px-6">
             <FaFacebookF /> Facebook
           </Link>
         </motion.div>

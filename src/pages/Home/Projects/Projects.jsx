@@ -6,6 +6,7 @@ import toy from '../../../assets/toy.jpg';
 import knowledge from '../../../assets/3.jpg';
 import a from '../../../assets/2.jpg';
 import { Helmet } from "react-helmet";
+import './Prjects.css';
 
 const Projects = () => {
 
@@ -19,6 +20,7 @@ const Projects = () => {
             </Helmet>
 
 
+            <div className='bg-white px-5'>
             <h1 className="text-5xl py-10  font-semibold  text-center text-transparent bg-clip-text  bg-gradient-to-r from-indigo-600 
              to-pink-500">
 
@@ -40,21 +42,22 @@ const Projects = () => {
             </h1>
 
 
-            <div className="md:flex gap-5 md:ml-20 px-5 py-2">
+            <div className="md:flex gap-5 md:ml-20 px-5 py-2 relative">
 
                 {/* ------------------------------- projects 1--------------------- */}
 
 
 
-                <div className="card lg:card-side mb-5 ">
+                <div className="card lg:card-side mb-5">
 
                     <div className="  rounded-xl  p-3 border-4 border-purple-500/100">
-                        <img className="w-[300px] rounded-xl " src={toy} alt="" />
+                        <img className="w-[300px] rounded-xl pl-2" src={toy} alt="" />
+                        <div>
                         <h2 className="card-title font-bold text-transparent bg-clip-text  bg-gradient-to-r from-indigo-600 
                                   to-pink-500 pt-3">My Toy</h2>
 
                         <p className='font-semibold text-slate-800 p-3'>
-                            • User can Sign up, Sign in, also can see toy and it’s details. <br /> <br />
+                            • Toy marketplace with user auth and CRUD. <br /> <br />
 
                             • Users can add, update, and delete toy, here use can sale and buy toys. <br /><br />
 
@@ -91,18 +94,21 @@ const Projects = () => {
                                     Server <FaGithub />
                                 </Link>
                             </button>
-                            <button className="btn btn-primary bg-gradient-to-r from-indigo-600 to-pink-500">
+                            <button className="btn btn-primary bg-gradient-to-r from-indigo-600 to-pink-500"> 
 
-                                <Link
+                              <div>
+                              <Link
                                     to="https://assignment-project-e51eb.web.app/"
                                     target="_blank"
                                     className="flex items-center gap-2"
                                 >
                                     Live Demo <BsBoxArrowInUpRight />
                                 </Link>
+                              </div>
                             </button>
 
 
+                        </div>
                         </div>
 
 
@@ -120,7 +126,7 @@ const Projects = () => {
                                   to-pink-500 pt-3">Knowledge Cafe</h2>
 
                         <p className='font-semibold text-slate-800 p-3'>
-                            • This website is about a restaurant , there are preview chef details and their recipes. <br /> <br />
+                            • Here Using JavaScript and API. <br /> <br />
                             • This website has a login and firebase authentication system. <br /> <br />
 
                             • <span className="text-transparent bg-clip-text  bg-gradient-to-r from-indigo-600 to-pink-500">Technologies: </span>
@@ -173,10 +179,10 @@ const Projects = () => {
                     <div className="  rounded-xl border-4 border-purple-500/100 p-3">
                         <img className="w-[300px] rounded-lg" src={a} alt="" />
                         <h2 className="card-title font-bold text-transparent bg-clip-text  bg-gradient-to-r from-indigo-600 
-                                  to-pink-500 pt-3">AI Universe Hub</h2>
+                                  to-pink-500 pt-3 md:pt-10">AI Universe Hub</h2>
 
                         <p className='font-semibold text-slate-800 p-3'>
-                            • This website is about a Blog  related site. Here add Features, sort button and see more button.   <br />
+                            • Here Using JavaScript and API.   <br />
                             <br />
                             • There are preview info. Click arrow btn also can see details . <br />
                             <br />
@@ -238,6 +244,7 @@ const Projects = () => {
 
 
 
+            </div>
             </div>
 
         </div>

@@ -26,6 +26,7 @@
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.12",
     "variant": "^2.1.0"
   },
   "devDependencies": {
